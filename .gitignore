@@ -1,0 +1,12 @@
+# venv
+/venv
+
+# .idea
+/.idea
+
+# Pickel file
+mnist.pickel
+
+# __pycache__
+/__pycache__
+

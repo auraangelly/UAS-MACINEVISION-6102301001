@@ -1,0 +1,6 @@
+pygame
+tkinter
+Sklearn
+matplotlib
+numpy
+mnist

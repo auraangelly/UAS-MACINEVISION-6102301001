@@ -1,0 +1,24 @@
+from keras.datasets import mnist
+from matplotlib import pyplot as plt
+import numpy as np
+
+(train_x, train_y), (test_x, test_y) = mnist.load_data()
+
+print("train:")
+print(train_x.shape)
+print(train_y.shape)
+print("test:")
+print(test_x.shape)
+print(test_y.shape)
+
+idx = 100
+for i in range(9):
+  np.set_printoptions(linewidth=200)
+  print(np.array(train_x[i]))
+  plt.subplot(331 + i)
+  plt.imshow(train_x[i])
+  print(train_y[i])
+
+
+
+  
